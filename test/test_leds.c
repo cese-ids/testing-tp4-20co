@@ -77,7 +77,6 @@ void test_estado_led_apagado(void) {
     LedsSetOff(9);
     LedsSetOff(10);
     TEST_ASSERT_EQUAL_HEX16(0, EstadoLed(7));
-
     // TEST_ASSERT_FALSE(EstadoLed(7));
 }
 
